@@ -1,0 +1,19 @@
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+}
+
+.h5-carrousel {
+  font-size: 35px;
+  color: white;
+  text-shadow: 4px 4px 6px #6e6451;
+}
+
+.text-center {
+  color: #ad9a78;
+}

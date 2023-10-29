@@ -1,0 +1,63 @@
+.containers {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer {
+  background-color: #f2b9ac;
+  padding: 80px 0px;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-link {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-link h4 {
+  font-size: 20px;
+  color: #6e6451;
+  font-weight: 500;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #6e6451;
+  padding-bottom: 10px;
+  display: inline-block;
+  font-family: "Roboto Slab", serif;
+}
+.footer-link ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #6e6451;
+  display: block;
+  margin-bottom: 15px;
+  font-family: "Roboto Slab", serif;
+}
+
+.footer-link ul li a:hover {
+  color: white;
+  padding-left: 6px;
+}
+
+.social-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: #6e6451;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.Derechos-ss {
+  font-size: 18px;
+  text-decoration: none;
+  color: #6e6451;
+  display: block;
+  font-family: "Roboto Slab", serif;
+  margin-top: 10%;
+}
