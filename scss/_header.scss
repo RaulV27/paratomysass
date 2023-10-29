@@ -1,3 +1,8 @@
+@mixin anclas {
+  text-decoration: none;
+  color: #6e6451;
+}
+
 .nav-bar {
   width: 100%;
   display: flex;
@@ -21,10 +26,11 @@
   padding-left: 30px;
 }
 .menu li a {
-  text-decoration: none;
+  @include anclas;
+
   display: inline-block;
   text-align: center;
-  color: #6e6451;
+
   transition: 0.15s ease-in-out;
   position: relative;
   text-transform: uppercase;

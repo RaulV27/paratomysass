@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .footer {
-  background-color: #f2b9ac;
+  background-color: $color-rosa;
   padding: 80px 0px;
 }
 
@@ -21,7 +21,7 @@
   color: #6e6451;
   font-weight: 500;
   margin-bottom: 25px;
-  border-bottom: 2px solid #6e6451;
+  border-bottom: 2px solid $color-marron;
   padding-bottom: 10px;
   display: inline-block;
   font-family: "Roboto Slab", serif;
@@ -44,7 +44,7 @@
   display: inline-block;
   min-height: 40px;
   width: 40px;
-  background-color: #6e6451;
+  background-color: $color-marron;
   margin: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
@@ -56,7 +56,7 @@
 .Derechos-ss {
   font-size: 18px;
   text-decoration: none;
-  color: #6e6451;
+  color: $color-marron;
   display: block;
   font-family: "Roboto Slab", serif;
   margin-top: 10%;
